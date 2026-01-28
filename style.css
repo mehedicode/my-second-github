@@ -1,3 +1,40 @@
-#img1{
-width: 500px;
+nav li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 10px;
+}
+nav li:hover{
+background-color: aqua;
+}
+main article figure img{
+    width: 70%;
+    border: solid 10px goldenrod;
+    border-radius: 5px;
+    box-shadow: rgb(161, 149, 34) 10px 10px 10px ;
+}
+main article header{
+    margin-left: 20px;
+}
+#vdo1{
+    width: 70%;
+    border: solid 10px goldenrod;
+    border-radius: 5px;
+    box-shadow: rgb(161, 149, 34) 10px 10px 10px ;
+}
+
+footer{
+    text-align: center;
+}
+
+#sec1,
+#sec2,
+#sec3 {
+  border: 5px solid rgb(9, 136, 73);
+  margin: 10px;
+  padding: 10px;
+  box-shadow: rgb(11, 119, 65) 5px 5px 10px;
+  
+}
+#sec2, #sec3{
+    border-top: none;
 }
